@@ -1,4 +1,0 @@
-#Sun Dec 26 22:19:18 EET 2021
-base.0=/Users/mac/StudioProjects/FlutterApplications/bloc_pattern/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
