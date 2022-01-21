@@ -16,6 +16,22 @@ class CharctersScreen extends StatefulWidget {
 
 class _CharctersScreenState extends State<CharctersScreen> {
   late List<CharcterModel> allCharcters;
+  late List<CharcterModel> sReesultCharctrs;
+  final _searchController = TextEditingController();
+  bool isSearching = false;
+
+
+  Widget _searchWidget(){
+    return TextField(
+      controller: _searchController,
+      style: TextStyle(),
+      cursorColor: MyColors.yellow,
+  decoration: InputDecoration(
+    hintText: "Seartch Charcter"
+
+  ),
+    ) ;
+  }
 
   @override
   void initState() {
